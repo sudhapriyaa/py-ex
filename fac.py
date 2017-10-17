@@ -1,4 +1,5 @@
 def factorial(n):
+  '''Finds a factorial of given number'''
   print("factorial of ", n)
   while (n > 1):
     t = n * factorial(n - 1)
